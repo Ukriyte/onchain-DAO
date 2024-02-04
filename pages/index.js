@@ -320,7 +320,7 @@ export default function Home() {
           <h1 className={styles.title}>Welcome to my DAO!</h1>
           <div className={styles.description}>Ukriyte's DAO!</div>
           <div className={styles.description}>
-            Your CryptoDevs NFT Balance: {nftBalanceOfUser.data ? "" : nftBalanceOfUser.data.toString()}
+            Your CryptoDevs NFT Balance: {0}
             {console.log(nftBalanceOfUser.data.toString())}
             <br />
             {daoBalance.data && (
